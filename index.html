@@ -13,8 +13,10 @@
   <meta property="og:type" content="article">
   <meta property="og:title" content="RacerGS: Residual-Autoregressive Context for 3D Gaussian Splatting Compression">
   <meta property="og:description" content="Over 150x compression of 3D Gaussian Splatting at comparable rendering quality (NeurIPS 2026).">
-  <meta property="og:image" content="static/images/teaser.png">
+  <meta property="og:image" content="https://racergs.github.io/static/images/teaser.png">
+  <meta property="og:url" content="https://racergs.github.io/">
   <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://racergs.github.io/static/images/teaser.png">
   <meta name="twitter:title" content="RacerGS: Residual-Autoregressive Context for 3D Gaussian Splatting Compression">
 
   <meta name="citation_title" content="RacerGS: Residual-Autoregressive Context for 3D Gaussian Splatting Compression">
@@ -23,6 +25,8 @@
   <meta name="citation_author" content="Fu, Yun">
   <meta name="citation_publication_date" content="2026">
   <meta name="citation_conference_title" content="Advances in Neural Information Processing Systems">
+  <meta name="citation_arxiv_id" content="2610.34263">
+  <meta name="citation_pdf_url" content="https://arxiv.org/pdf/2610.34263">
 
   <title>RacerGS: Residual-Autoregressive Context for 3D Gaussian Splatting Compression</title>
 
@@ -43,6 +47,7 @@
     .venue-badge { display:inline-block; margin-top:0.5rem; padding:0.15rem 0.75rem; border-radius:999px; background:#1e293b; color:#fff; font-size:0.95rem; font-weight:700; letter-spacing:0.02em; }
     .publication-links { display:flex; flex-wrap:wrap; justify-content:center; gap:0.6rem; margin-top:1rem; }
     .publication-links .link-block { margin:0 !important; }
+    .publication-links .link-block a { margin:0; }
     .button.coming-soon { cursor:default; opacity:0.8; pointer-events:none; }
     .news-banner { display:inline-block; margin-top:1rem; padding:0.4rem 1.1rem; border-radius:999px; background:#fff4d6; color:#7a4b00; font-weight:600; font-size:0.98rem; }
 
@@ -111,6 +116,7 @@
       .title.is-4 { font-size: 1.15rem !important; }
       .publication-links { display:grid; grid-template-columns:1fr 1fr; gap:0.5rem; }
       .publication-links .button { width:100%; justify-content:center; font-size:0.85rem; }
+      .publication-links .link-block:last-child:nth-child(odd) { grid-column:1 / -1; }
       .news-banner { font-size:0.88rem; border-radius:12px; }
       .content.has-text-justified, .content.has-text-justified p { text-align:left !important; font-size:0.95rem !important; }
       .fig-caption, .note { font-size:0.88rem; }
@@ -154,10 +160,16 @@
             <div class="column has-text-centered">
               <div class="publication-links">
                 <span class="link-block">
-                  <span class="button is-normal is-rounded is-dark coming-soon">
+                  <a class="button is-normal is-rounded is-dark" href="https://arxiv.org/pdf/2610.34263" target="_blank">
                     <span class="icon"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm0 1.5L18.5 8H14V3.5zM8 13h8v1.5H8V13zm0 3h8v1.5H8V16zm0-6h4v1.5H8V10z"/></svg></span>
-                    <span>Paper (Coming Soon)</span>
-                  </span>
+                    <span>Paper</span>
+                  </a>
+                </span>
+                <span class="link-block">
+                  <a class="button is-normal is-rounded is-dark" href="https://arxiv.org/abs/2610.34263" target="_blank">
+                    <span class="icon"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M3 3h18v5H3V3zm1 6h16v11a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V9zm5 3v1.5h6V12H9z"/></svg></span>
+                    <span>arXiv</span>
+                  </a>
                 </span>
                 <span class="link-block">
                   <span class="button is-normal is-rounded is-dark coming-soon">
@@ -366,7 +378,10 @@
   title={RacerGS: Residual-Autoregressive Context for 3D Gaussian Splatting Compression},
   author={Wang, Wenqing and Zeng, Huimin and Fu, Yun},
   booktitle={Advances in Neural Information Processing Systems},
-  year={2026}
+  year={2026},
+  eprint={2610.34263},
+  archivePrefix={arXiv},
+  primaryClass={cs.CV}
 }</code></pre>
     </div>
   </section>
